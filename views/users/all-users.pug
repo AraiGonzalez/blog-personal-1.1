@@ -1,0 +1,15 @@
+extends ../layouts/main
+
+block mainContent
+    h1 Lista de Usuarios
+    ul.user-list
+        each user in users
+            li.user-item
+                span.user-name #{user.username} - #{user.role}
+                div.actions
+                    form.search-form(action=`/users/${user._id}/change-role` method="POST")
+                        button(type="submit") Cambiar Rol
+                    form.search-form(action=`/users/${user._id}/delete` method="POST")
+                        button(type="submit" class="button delete") Eliminar
+    
+    a.button(href="/posts/all-post") Volver a publicaciones
