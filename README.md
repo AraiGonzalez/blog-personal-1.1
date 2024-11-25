@@ -57,7 +57,7 @@ Clonar el repositorio :
 intento
 
 ### Copiar
-git clone https://github.com/AraiGonzalez/blog-personall.git
+git clone https://github.com/AraiGonzalez/blog-personal-1.1.git
 cd blog-personal
 Instalar las dependencias :
 intento
