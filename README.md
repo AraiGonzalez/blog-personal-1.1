@@ -74,5 +74,5 @@ Acceda a la aplicación en el navegador.
 Regístrate como nuevo usuario para comenzar a crear publicaciones y comentar.
 Si eres administrador, podrás gestionar usuarios y sus roles.
 
-### proyecto deployado ( en railway)
+### proyecto deployado ( en railway,puede no estar siempre disponible )
 https://blog-personal-production.up.railway.app/
